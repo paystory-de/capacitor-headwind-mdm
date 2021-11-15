@@ -29,7 +29,7 @@ export interface GetCustomResult { custom: string; }
 export interface GetResult { value: string; }
 export interface SetResult { successful: boolean; }
 
-export interface HeadwindMDMCapacitorPlugin {
+export interface HeadwindMDM {
   /**
    * Connect to Headwind MDM service and set the event handler. This method returns true on success and false if Headwind MDM is not running.
    *

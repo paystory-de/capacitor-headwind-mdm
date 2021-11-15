@@ -5,7 +5,7 @@ Capacitor wrapper for Headwind MDM
 ## Install
 
 ```bash
-npm install capacitor-headwind-mdm
+npm install @paystory/capacitor-headwind-mdm
 npx cap sync
 ```
 

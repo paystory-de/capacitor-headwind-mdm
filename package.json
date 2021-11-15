@@ -1,6 +1,6 @@
 {
   "name": "@paystory/capacitor-headwind-mdm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Capacitor wrapper for Headwind MDM",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -35,7 +35,7 @@
     "fmt": "npm run eslint -- --fix && npm run prettier -- --write",
     "eslint": "eslint . --ext ts",
     "prettier": "prettier \"**/*.{css,html,ts,js,java}\"",
-    "docgen": "docgen --api HeadwindMDMCapacitorPlugin --output-readme README.md --output-json dist/docs.json",
+    "docgen": "docgen --api HeadwindMDM --output-readme README.md --output-json dist/docs.json",
     "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.js",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
