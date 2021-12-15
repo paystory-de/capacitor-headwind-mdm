@@ -9,6 +9,23 @@ npm install @paystory/capacitor-headwind-mdm
 npx cap sync
 ```
 
+## Example
+
+```typescript
+import { HeadwindMDM } from '@paystory/capacitor-headwind-mdm';
+
+// Check if HeadwindMDM is available
+if (await HeadwindMDM.isConnected()) {
+    // Perfect!
+}
+
+// Getting a value from server
+const value = await HeadwindMDM.get({attr: 'hello'});
+
+// Getting the device id
+const deviceId = await HeadwindMDM.getDeviceId();
+```
+
 ## API
 
 <docgen-index>
